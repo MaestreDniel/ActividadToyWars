@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.studentsfp.devenvironment</groupId>
-	<artifactId>sandbox-programming</artifactId>
+	<artifactId>unittesting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sandbox-programming</name>
+	<name>unittesting</name>
 	<description>Boilerplate for Unit Testing with Spring</description>
 
 	<properties>

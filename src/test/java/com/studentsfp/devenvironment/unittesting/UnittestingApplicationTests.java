@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.util.Assert;
 
 @SpringBootTest
-class UnitTestingApplicationTests {
+class UnittestingApplicationTests {
 
     @Test
     void contextLoads() {
