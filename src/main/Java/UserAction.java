@@ -1,6 +1,6 @@
 public class UserAction {
     private String RecordAcctions;
-    private  String type;
+    private  String typeMascot;
     private Integer StartingPoints;
     private Integer TotalPoints;
 
@@ -13,11 +13,11 @@ public class UserAction {
     }
 
     public String getType() {
-        return type;
+        return typeMascot;
     }
 
     public void setType(String type) {
-        this.type = type;
+        this.typeMascot = typeMascot;
     }
 
     public Integer getStartingPoints() {
