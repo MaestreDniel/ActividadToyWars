@@ -1,31 +1,52 @@
+import org.springframework.util.StringUtils;
+
 public enum Actions implements Iactions {
     ATTACK, COUNTERATTACK, DEFENDING, EAT, SLEEP;
 
     @Override
-    public String DoAttack() {
-        return DoAttack();
+    public boolean DoAttack() {
+        if(Actions.ATTACK.equals(ATTACK)){
+             Iactions.DoAttack().GetCurrentActions(ATTACK);
+             else{
+
+
+            }
+             return false;
+        }
+    }
+
+
+
+    @Override
+    public boolean DoConterAttack() {
+        if (Actions.COUNTERATTACK) {
+            return null;
+        }
+
+        @Override
+        public boolean DoDefending( {
+            if (Actions.DEFENDING) {
+                return null;
+            }
+
+        }
+
+        @Override
+        public boolean DoEat () {
+            if (Actions.EAT) {
+                return null;
+            }
+        }
+
     }
 
     @Override
-    public String DoConterAttack() {
-        return null;
+    public boolean DoSpleep() {
+        if (Actions.SLEEP) {
+            return  null;
+        }
+
     }
 
-    @Override
-    public String DoDefending() {
-        return null;
-    }
 
-    @Override
-    public String DoEat() {
-        return null;
-    }
-
-    @Override
-    public String DoSpleep() {
-        return null;
-    }
 }
-
-
-

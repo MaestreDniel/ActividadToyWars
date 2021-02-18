@@ -1,15 +1,13 @@
-public interface Iactions {
- String DoAttack();
- String DoConterAttack();
- String DoDefending();
- String DoEat();
-  String DoSpleep();
+public interface Iactions extends Actions {
+ boolean DoAttack();
+ boolean DocAttack();
+ boolean DoDefending();
+ boolean DoEat();
+ boolean DoSpleep();
 
 
 
-    public static void GetCurrentActions() {
+    public static void GetCurrentActions(Actions attack) {
 
     }
 }
-
-//ATTACK, COUNTERATTACK, DEFENDING, EAT, SLEEP
