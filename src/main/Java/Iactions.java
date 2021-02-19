@@ -1,20 +1,18 @@
 public interface Iactions {
- boolean DoAttack();
+    boolean DoAttack();
 
- boolean DocAttack();
+    boolean DocAttack();
 
- boolean DoDefending();
+    boolean DoDefending();
 
- boolean DoEat();
+    boolean DoEat();
 
- boolean DoSpleep();
-
-
-
-    public static void GetCurrentActions(Actions) {
-        Actions actions= new Actions();
+    boolean DoSpleep();
 
 
+//    public static void GetCurrentActions(Actions) {
+    //Actions actions = new Actions();
 
-    }
+
 }
+

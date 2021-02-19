@@ -1,4 +1,8 @@
+import java.util.List;
 
-
-public class Service {
+@Service
+public @interface Service {
+    String UserActions = List<Actions>;
+    Integer maxPoints = 100;
+    //String c
 }

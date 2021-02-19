@@ -1,6 +1,6 @@
 public class UserAction {
     private String RecordAcctions;
-    private  String typeMascot;
+    private String typeMascot;
     private Integer StartingPoints;
     private Integer TotalPoints;
 

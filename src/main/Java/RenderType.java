@@ -1,3 +1,3 @@
 public enum RenderType {
-    CONSOLE, HTML,JSON
+    CONSOLE, HTML, JSON
 }
