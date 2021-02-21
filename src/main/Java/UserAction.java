@@ -1,15 +1,43 @@
 public class UserAction {
-    private String RecordAcctions;
+    private String RecordActions;
     private String typeMascot;
     private Integer StartingPoints;
     private Integer TotalPoints;
-
-    public String getRecordAcctions() {
-        return RecordAcctions;
+    private enum Actions {
+        ATTACK, DEFENDING, EAT, SLEEP;
     }
 
-    public void setRecordAcctions(String recordAcctions) {
-        RecordAcctions = recordAcctions;
+    public String actionMethod(Actions actions1){
+        Pokemon pokemon = new Pokemon();
+        switch(actions1) {
+            case ATTACK:
+                pokemon.sumPoints();
+                System.out.println("Ataque realizado");
+                break;
+            case DEFENDING:
+                pokemon.subtractPoints();
+                System.out.println("Defensa realizada");
+                break;
+            case EAT:
+                pokemon.sumPoints();
+                System.out.println("Comiendo hasta reventar");
+                break;
+            case SLEEP:
+                pokemon.sumPoints();
+                System.out.println("Zzzz...");
+                break;
+            default:
+                System.out.println("Whatever");
+        }
+        return "OK";
+    }
+
+    public String getRecordActions() {
+        return RecordActions;
+    }
+
+    public void setRecordActions(String recordActions) {
+        RecordActions = recordActions;
     }
 
     public String getType() {

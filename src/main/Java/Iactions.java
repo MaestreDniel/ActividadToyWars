@@ -1,18 +1,18 @@
 public interface Iactions {
-    boolean DoAttack();
 
-    boolean DocAttack();
+    void DoAttack();
 
-    boolean DoDefending();
+    void DoDefending();
 
-    boolean DoEat();
+    void DoEat();
 
-    boolean DoSpleep();
-
-
-//    public static void GetCurrentActions(Actions) {
-    //Actions actions = new Actions();
+    void DoSleep();
 
 
+    /*public void getCurrentActions(String Actions) {
+        Status status = new Status();
+        Status.getMaxPoint();
+    }
+*/
 }
 
