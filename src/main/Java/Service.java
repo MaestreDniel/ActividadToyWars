@@ -37,7 +37,7 @@ public class Service {
     public resetLifeBeing(LifeBeing){
      return setCurrentLifeBeing(Pokemon);
     }
-    public Render(){
+    public DoRender(){
         return RenderType.JSON; ;
     }
     public getStatus(){
@@ -49,6 +49,6 @@ public class Service {
         return getActionList();
     }
     public getUserActions(){
-        return UserAction;
+        return get;
     }
 }
