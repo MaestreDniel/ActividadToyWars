@@ -28,6 +28,7 @@ public class Pokemon extends LifeBeing implements Iactions, IRender {
         totalPoints -= 3;
     }
 
+    @Override
     public void DoAttack() {
         pokemon.sumPoints();
     }
