@@ -1,3 +1,3 @@
 public interface IRender {
-    //DoRender(RenderType);
+    DoRender(RenderType);
 }

@@ -1,12 +1,12 @@
-public interface Iactions {
+    public interface Iactions {
 
-    void DoAttack();
+        void DoAttack();
 
-    void DoDefending();
+        void DoDefending();
 
-    void DoEat();
+        void DoEat();
 
-    void DoSleep();
+        void DoSleep();
 
 
     /*public void getCurrentActions(String Actions) {

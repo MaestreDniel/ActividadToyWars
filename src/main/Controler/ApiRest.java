@@ -23,8 +23,8 @@ public lifeBeing lifeBeing (@RequestParam value="Pokemon"){
 }
 
 @GetMapping("rest/Get/Actions")
-    public UserActipm (@RequestParam valuue=getCurrentactions){
-        return;Iactions;
+    public UserActions (@RequestParam value=getCurrentactions){
+        return Iactions;
     }
 
 }
