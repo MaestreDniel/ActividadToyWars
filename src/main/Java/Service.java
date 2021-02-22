@@ -30,7 +30,7 @@ public class Service {
         CurrentLifeBeing = currentLifeBeing;
     }
 
-    //metodos
+
     public doAction(UserAction){
     }
 
@@ -49,6 +49,6 @@ public class Service {
         return getActionList();
     }
     public getUserActions(){
-        return get;
+        return UserAction;
     }
 }
